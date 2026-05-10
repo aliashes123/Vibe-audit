@@ -1,0 +1,7 @@
+Webflow Landing (Entry) → audit.brandilite.com (Next.js App)
+                                      ↓
+                           FastAPI Backend + Celery Workers
+                                      ↓
+                           PostgreSQL (Audits) + Redis (Queue)
+                                      ↓
+                           WeasyPrint PDF → SendGrid + S3 Downloads
